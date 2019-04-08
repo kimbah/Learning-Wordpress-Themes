@@ -244,3 +244,28 @@ img {
     top: 0;
     left: 0;
 }
+
+
+/* Search Section */
+
+.hd-search {
+    float: right;
+}
+
+.hd-search label {
+    position: absolute;
+    left: -9999px;
+}
+
+.hd-search #searchsubmit {
+    background-color: #006ec3;
+    color: #FFF;
+    padding: 5px 14px;
+    border: none;
+    vertical-align: top;
+}
+
+.hd-search #s {
+    vertical-align: top;
+    padding: 3px 0;
+}
