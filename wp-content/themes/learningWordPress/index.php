@@ -3,7 +3,7 @@
 get_header(); ?>
 <!-- site-content -->
     <div class="site-content clearfix">
-            <!-- main column -->
+            <!-- main-column -->
             <div class="main-column">
                 <?php if(have_posts()) :
                     while (have_posts()) : the_post();
