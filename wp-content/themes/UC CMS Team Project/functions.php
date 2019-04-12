@@ -184,3 +184,65 @@ function UCCMSTeamProject_customize_css() { ?>
 <?php }
 
 add_action('wp_head', 'UCCMSTeamProject_customize_css');
+
+// Add Footer callout section to admin appearance customize screen
+
+function uccms_footer_callout($wp_customize) {
+	$wp_customize->add_section('uccms-footer-callout-section', array(
+		'title' => 'Footer Callout'
+	));
+
+	$wp_customize->add_setting('uccms-footer-callout-display', array(
+		'default' => 'No'  
+	));
+
+	$wp_customize->add_control( new WP_Customize_Control($wp_customize, 'uccms-footer-callout-display-control', array(
+			'label' => 'Display this section?',
+			'section' => 'uccms-footer-callout-section',
+			'settings' => 'uccms-footer-callout-display',
+			'type' => 'select',
+			'choices' => array('No' => 'No', 'Yes' => 'Yes')
+		)));
+
+	$wp_customize->add_setting('uccms-footer-callout-headline', array(
+		'default' => 'Example Headline Text!'
+	));
+
+	$wp_customize->add_control( new WP_Customize_Control($wp_customize, 'uccms-footer-callout-headline-control', array(
+			'label' => 'Headline',
+			'section' => 'uccms-footer-callout-section',
+			'settings' => 'uccms-footer-callout-headline'
+		)));
+
+	$wp_customize->add_setting('uccms-footer-callout-text', array(
+		'default' => 'Example paragraph text.'
+	));
+
+	$wp_customize->add_control( new WP_Customize_Control($wp_customize, 'uccms-footer-callout-text-control', array(
+			'label' => 'Text',
+			'section' => 'uccms-footer-callout-section',
+			'settings' => 'uccms-footer-callout-text',
+			'type' => 'textarea'
+		)));
+
+	$wp_customize->add_setting('uccms-footer-callout-link');
+
+	$wp_customize->add_control( new WP_Customize_Control($wp_customize, 'uccms-footer-callout-link-control', array(
+			'label' => 'Link',
+			'section' => 'uccms-footer-callout-section',
+			'settings' => 'uccms-footer-callout-link',
+			'type' => 'dropdown-pages'
+		)));
+
+	$wp_customize->add_setting('uccms-footer-callout-image');
+
+	$wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'uccms-footer-callout-image-control', array(
+			'label' => 'Image',
+			'section' => 'uccms-footer-callout-section',
+			'settings' => 'uccms-footer-callout-image',
+			'width' => 750,
+			'height' => 500
+		)));
+}
+
+add_action('customize_register', 'uccms_footer_callout');
