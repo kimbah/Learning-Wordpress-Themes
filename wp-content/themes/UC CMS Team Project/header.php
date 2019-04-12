@@ -9,10 +9,9 @@
 
 <body <?php body_class(); ?>>
 
-    <div class="container">
+    <div class="container"> <!-- container -->
 
-        <!-- site-header -->
-        <header class="site-header">
+        <header class="site-header"> <!-- site-header -->
         
             <!-- hd-search -->
             <div class="hd-search">

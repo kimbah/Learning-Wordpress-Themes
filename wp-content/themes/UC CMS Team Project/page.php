@@ -3,7 +3,7 @@
 get_header(); ?>
 <!-- site-content -->
     <div class="site-content clearfix">
-        </h2>yrdy</h2>
+        </h2>TEST TEST TEST</h2>
             <!-- main column -->
             <div class="main-column">
                 <?php if(have_posts()) :

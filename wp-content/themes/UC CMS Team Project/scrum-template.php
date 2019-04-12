@@ -1,7 +1,7 @@
 <?php
 
 /*
-Template Name: Special Layout
+Template Name: SCRUM
 */
 
 get_header();
@@ -10,10 +10,10 @@ if(have_posts()) :
     while (have_posts()) : the_post(); ?> 
 
     <article class="post page">
-        <h3>Uses special-template.php</h3>
+        <h3>Add your SCRUM content to scrum-template.php Shane</h3>
         <h2><?php the_title(); ?></h2>
         <div class="info-box">
-            <h4>Disclaimer Title</h4>
+            <h4>SCRUM SPECIAL NOTICE</h4>
             <p>TEST, ipsum dolor sit amet consectetur adipisicing elit. Ea, rem eius! Earum, repellat! Consequuntur ea delectus eos laboriosam</p>
         </div>
         <?php the_content(); ?>

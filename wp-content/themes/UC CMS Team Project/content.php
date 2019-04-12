@@ -1,7 +1,6 @@
 <article class="post <?php if(has_post_thumbnail()) { ?>has-thumbnail<?php } ?>">
 
-        <!-- post-thumbnail -->
-        <div class="post-thumbnail">
+        <div class="post-thumbnail"> <!-- post-thumbnail -->
             <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('small-thumbnail'); ?></a>
         </div> <!-- /post-thumbnail -->
 

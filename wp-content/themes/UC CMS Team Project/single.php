@@ -2,10 +2,9 @@
 
 get_header(); ?>
 
-	<!-- site-content -->
-	<div class="site-content clearfix">
-		<!-- main-column -->
-		<div class="main-column">
+	<div class="site-content clearfix"> <!-- site-content -->
+		
+		<div class="main-column"> <!-- main-column -->
 			
 			<?php
 			
