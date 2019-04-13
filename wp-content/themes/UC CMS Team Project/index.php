@@ -8,6 +8,9 @@ get_header(); ?>
                     while (have_posts()) : the_post();
                     get_template_part('content', get_post_format());
                     endwhile;
+
+                    echo paginate_links();
+
                 else :
                     echo '<p>No Content Found</p>';
                 endif; ?>

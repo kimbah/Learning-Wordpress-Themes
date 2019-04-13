@@ -1,9 +1,8 @@
 <?php
 
 get_header(); ?>
-<!-- site-content -->
-    <div class="site-content clearfix">
-        </h2>TEST TEST TEST</h2>
+    <div class="site-content clearfix"> <!-- site-content -->
+
             <!-- main column -->
             <div class="main-column">
                 <?php if(have_posts()) :

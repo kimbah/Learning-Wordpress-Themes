@@ -41,7 +41,9 @@ get_header(); ?>
 
 				get_template_part('content', get_post_format());
 
-				endwhile;
+                endwhile;
+                
+                echo paginate_links();
 
 				else :
 					echo '<p>No content found</p>';

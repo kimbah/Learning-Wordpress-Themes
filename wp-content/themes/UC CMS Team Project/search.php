@@ -13,6 +13,8 @@ if(have_posts()) : ?>
 
     endwhile;
 
+    echo paginate_links();
+
     else :
         echo '<p>No Content Found</p>';
 
