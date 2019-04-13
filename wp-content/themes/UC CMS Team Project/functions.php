@@ -4,7 +4,13 @@ function custom_scripts() {
 wp_enqueue_style( 'bootstrap-style' , 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' );
 wp_enqueue_script( 'custom-script', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', array( 'jquery' ), false, true );
 wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/style.css' );
+wp_enqueue_script('main.js', get_template_directory_uri() . '/js/main.js', NULL, 1.0, true);
+wp_localize_script('main.js', 'magicalData', array(
+    'nonce' => wp_create_nonce('wp_rest'),
+    'siteURL' => get_site_url()
+));
 }
+
 add_action( 'wp_enqueue_scripts', 'custom_scripts' );
 
 // Get Top Ancestor

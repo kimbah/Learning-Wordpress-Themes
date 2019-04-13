@@ -9,17 +9,21 @@ if(have_posts()) :
 
         <h3>** Best Sample of your work here Rachel **</h3>
         <br>
-        <br>
         <div class="column-container clearfix"> <!-- column container -->
             
             <div class="title-column"> <!-- title-column -->
-                <h4><?php the_title(); ?></h4>
-            </div> <!-- title-column -->
+                <h2><?php the_title(); ?></h2>
+            </div> <!-- /title-column -->
             
             <div class="text-column"> <!-- text-column -->
                 <?php the_content(); ?>
-            </div> <!-- text-column -->
-        </div> <!-- column container -->
+
+                <button id="portfolio-posts-btn">Load portfolio related blog posts</button>
+                <div id="portfolio-posts-container"></div>
+            </div> <!-- /text-column -->
+
+        </div> <!-- /column container -->
+
     </article>
 
     <?php endwhile;
