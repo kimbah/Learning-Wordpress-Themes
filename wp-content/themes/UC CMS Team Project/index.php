@@ -2,7 +2,7 @@
 
 get_header(); ?>
     <div class="site-content clearfix"> <!-- site-content -->
-
+    
             <div class="main-column"> <!-- main-column -->
                 <?php if (current_user_can('administrator')) : ?>
                     <div class="admin-quick-add">

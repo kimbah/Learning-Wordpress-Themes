@@ -377,7 +377,7 @@ h2.widget-title {
 .site-footer nav ul li {
     margin-right: 10px;
     padding-right: 10px;
-    border-right: 1px solid #ddd;
+    border-right: 2px solid #ddd;
 }
 
 .site-footer nav ul li:last-of-type {

@@ -1,5 +1,4 @@
 <?php
-
 get_header(); ?>
 
     <div class="site-content clearfix"> <!-- site-content -->
@@ -37,7 +36,7 @@ get_header(); ?>
 
                     endif;
 
-                    ?>
+                ?>
 
     </div> <!-- /site-content -->
 

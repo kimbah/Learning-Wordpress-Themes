@@ -13,8 +13,7 @@
 
         <header class="site-header"> <!-- site-header -->
         
-            <!-- hd-search -->
-            <div class="hd-search">
+            <div class="hd-search"> <!-- hd-search -->
                 <?php get_search_form(); ?>
             </div> <!-- /hd-search -->
 

@@ -7,8 +7,6 @@ if(have_posts()) :
 
     <article class="post page">
 
-        <h3>** Best Sample of your work here Rachel **</h3>
-        <br>
         <div class="column-container clearfix"> <!-- column container -->
             
             <div class="title-column"> <!-- title-column -->

@@ -2,7 +2,7 @@
 
 get_header(); ?>
     <div class="site-content clearfix"> <!-- site-content -->
-
+    
             <!-- main column -->
             <div class="main-column">
                 <?php if(have_posts()) :

@@ -4,8 +4,6 @@ get_header(); ?>
 
     <div class="site-content clearfix"> <!-- site-content -->
 
-    <h2>** Custom Home Page Content Goes Here Rachel **</h2>
-
         <?php if(have_posts()) :
             while (have_posts()) : the_post();
 
