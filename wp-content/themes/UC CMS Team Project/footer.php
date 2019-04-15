@@ -1,6 +1,6 @@
     <footer class="site-footer">
 
-    <?php if(get_theme_mod('uccms-footer-callout-display') == "Yes") { ?>
+    <!-- <?php if(get_theme_mod('uccms-footer-callout-display') == "Yes") { ?>
     <div class="footer-callout clearfix">
 			<div class="footer-callout-image">
 				<a href="<?php echo get_permalink(get_theme_mod('uccms-footer-callout-link')) ?>"><img src="<?php echo wp_get_attachment_url(get_theme_mod('uccms-footer-callout-image')) ?>"></a>
@@ -11,7 +11,7 @@
 				<p><a href="<?php echo get_permalink(get_theme_mod('uccms-footer-callout-link')) ?>"><strong>Learn more &raquo;</strong></a></p>
 			</div>
     </div>
-    <?php } ?>
+    <?php } ?> -->
     
         <div class="footer-widgets clearfix"> <!-- footer widgets -->
             <?php if(is_active_sidebar('footer1')) : ?>
@@ -29,11 +29,11 @@
                     <?php dynamic_sidebar('footer3') ?>
                 </div>
             <?php endif; ?>
-            <?php if(is_active_sidebar('footer4')) : ?>
+            <!-- <?php if(is_active_sidebar('footer4')) : ?>
                 <div class="footer-widget-area">
                     <?php dynamic_sidebar('footer4') ?>
                 </div>
-            <?php endif; ?>
+            <?php endif; ?> -->
         </div> <!-- /footer-widgets -->
 
         <nav class="site-nav">
@@ -44,6 +44,9 @@
             ?>
             <?php wp_nav_menu( $args ); ?>
         </nav>
+        <p>This website was produced by students in the Faculty of Arts & Design, University of Canberra.
+        The text and images reproduced on this site were generously provided by [Canberra House]
+        Make text in square brackets a link to this page: http://www.canberrahouse.com.au.</p>
         <p><?php bloginfo('name'); ?> - &copy; <?php echo date('Y'); ?></p>
 
     </footer>

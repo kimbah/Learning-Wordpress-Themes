@@ -1,6 +1,4 @@
-<?php
-
-get_header(); ?>
+<?php get_header(); ?>
     <div class="site-content clearfix"> <!-- site-content -->
     
             <div class="main-column"> <!-- main-column -->

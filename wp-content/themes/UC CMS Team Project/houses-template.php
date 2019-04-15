@@ -1,7 +1,7 @@
 <?php
 
 /*
-Template Name: SCRUM
+Template Name: HOUSES
 */
 
 get_header();

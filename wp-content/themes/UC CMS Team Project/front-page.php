@@ -1,9 +1,6 @@
-<?php
-
-get_header(); ?>
+<?php get_header(); ?>
 
     <div class="site-content clearfix"> <!-- site-content -->
-
         <?php if(have_posts()) :
             while (have_posts()) : the_post();
 
@@ -16,8 +13,7 @@ get_header(); ?>
 
             endif; ?>
 
-            
-            <div class="home-columns clearfix"> <!-- home-columns -->
+             <div class="home-columns clearfix"> <!-- home-columns -->
                 
                 <div class="one-half"> <!-- one-half -->
 
@@ -68,11 +64,11 @@ get_header(); ?>
 
                     if($newsPosts->have_posts()) :
                         while($newsPosts->have_posts()) : $newsPosts->the_post(); ?>
-								<!-- post-item -->
-								<div class="post-item clearfix">
+								
+								<div class="post-item clearfix"> <!-- post-item -->
 
-									<!-- post-thumbnail -->
-									<div class="square-thumbnail">
+									
+									<div class="square-thumbnail"> 
 										<a href="<?php the_permalink(); ?>"><?php
 										if (has_post_thumbnail()) {
 											the_post_thumbnail('square-thumbnail');
@@ -99,7 +95,7 @@ get_header(); ?>
                     <span class="horiz-center"><a href="<?php echo get_category_link(10); ?>" class="btn-a">View all News Posts</a></span>
                 </div> <!-- one-half  last-->
 
-            </div> <!-- home-columns -->
+            </div> <!--home-columns -->
 
     </div> <!-- /site-content -->
 

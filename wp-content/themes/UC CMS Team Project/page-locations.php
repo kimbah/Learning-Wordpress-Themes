@@ -8,16 +8,13 @@ if(have_posts()) :
     <article class="post page">
 
         <div class="column-container clearfix"> <!-- column container -->
-            
+
             <div class="title-column"> <!-- title-column -->
                 <h2><?php the_title(); ?></h2>
             </div> <!-- /title-column -->
             
             <div class="text-column"> <!-- text-column -->
                 <?php the_content(); ?>
-
-                <button id="portfolio-posts-btn">Load portfolio related blog posts</button>
-                <div id="portfolio-posts-container"></div>
             </div> <!-- /text-column -->
 
         </div> <!-- /column container -->

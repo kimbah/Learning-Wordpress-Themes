@@ -347,7 +347,7 @@ h2.widget-title {
 }
 
 .footer-widget-area {
-    width: 25%;
+    width: 33%;
     float: left;
     padding-right: 40px;
     box-sizing: border-box;
@@ -411,7 +411,8 @@ article.page h2 {
 
 /* Two Column Title Layout */
 
-.title-column {
+
+/* .title-column {
     width: 30%;
     float: left;
 }
@@ -419,7 +420,7 @@ article.page h2 {
 .text-column {
     width: 70%;
     float: right;
-}
+} */
 
 
 /* Info Box Styles */

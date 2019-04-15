@@ -1,3 +1,4 @@
+dfafasdk
 <?php
 
 /*
@@ -11,10 +12,10 @@ if(have_posts()) :
 
     <article class="post page">
         <h2><?php the_title(); ?></h2>
-        <div class="info-box">
+        <!-- <div class="info-box">
             <h4>Using Page Templates</h4>
             <p>By adding a comment "Template Name: (name)" pages can have different layouts ....</p>
-        </div>
+        </div> -->
         <?php the_content(); ?>
     </article>
 
