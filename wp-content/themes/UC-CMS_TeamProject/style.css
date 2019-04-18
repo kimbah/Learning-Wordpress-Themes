@@ -108,12 +108,21 @@ article.post-gallery {
     border-bottom: none;
 }
 
+#gallery-1 {
+    display: flex;
+}
+
+#gallery-1 img {
+    padding: 5px;
+}
+
 article.post-gallery .gallery img {
     border: none !important;
 }
 
 article.post-gallery .wp-caption-text {
     font-size: 86%;
+    text-align: center;
 }
 
 article.post-gallery h2 {
@@ -347,7 +356,7 @@ h2.widget-title {
 }
 
 .footer-widget-area {
-    width: 33%;
+    width: 25%;
     float: left;
     padding-right: 40px;
     box-sizing: border-box;

@@ -37,6 +37,8 @@ function custom_excerpt_length() {
 
 add_filter('excerpt_length', 'custom_excerpt_length');
 
+// Activate HTML5 features
+add_theme_support('html5', array('comment-list', 'comment-form', 'search-form', 'gallery', 'caption'));
 
 // Activating Widgets
 
