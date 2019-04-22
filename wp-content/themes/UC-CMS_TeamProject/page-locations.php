@@ -31,3 +31,12 @@ if(have_posts()) :
 get_footer();
 
 ?>
+
+<div class="container">
+            <?php 
+                if(comments_open()):
+                    comments_template();
+                endif;
+            
+            ?>
+</div>

@@ -108,12 +108,21 @@ article.post-gallery {
     border-bottom: none;
 }
 
+#gallery-1 {
+    display: flex;
+}
+
+#gallery-1 img {
+    padding: 5px;
+}
+
 article.post-gallery .gallery img {
     border: none !important;
 }
 
 article.post-gallery .wp-caption-text {
     font-size: 86%;
+    text-align: center;
 }
 
 article.post-gallery h2 {
@@ -347,7 +356,7 @@ h2.widget-title {
 }
 
 .footer-widget-area {
-    width: 33%;
+    width: 25%;
     float: left;
     padding-right: 40px;
     box-sizing: border-box;
@@ -667,4 +676,113 @@ img {
     padding: 10px;
     margin: 0 0 10px 0;
     box-sizing: border-box;
+}
+
+
+/* Post Comments */
+
+ol.comment-list {
+    margin-top: 30px;
+}
+
+.comments-area {
+    border-top: 4px solid #F1F1F1;
+    margin-top: 40px;
+}
+
+.last-field {
+    margin-bottom: 50px;
+}
+
+.comment-list {
+    padding: 0;
+    list-style: none;
+}
+
+.comment-body {
+    padding-bottom: 0;
+}
+
+.children {
+    background-color: #F5F5F5;
+    padding-right: 20px;
+    padding-left: 20px;
+    list-style: none;
+    margin-left: 60px;
+}
+
+.children .comment-author::before {
+    background-color: #e6e4e4;
+}
+
+.comment-author {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.comment-author::before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 10px;
+    bottom: 13px;
+    left: 40px;
+    right: 0;
+    background-color: #f3f0f0;
+    z-index: 1;
+    border-radius: 4px;
+}
+
+.comment-author * {
+    z-index: 1;
+    position: relative;
+}
+
+.comment-author b {
+    font-weight: 400;
+}
+
+.comment-author .avatar {
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 3px solid #fff;
+}
+
+.comment-metadata {
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: -5px;
+    font-size: 12px;
+}
+
+.comment-metadata a {
+    color: #999;
+}
+
+.comment-content {
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 300;
+    border-bottom: 1px solid #E6E6E6;
+    margin-left: 60px;
+}
+
+.reply {
+    text-align: right;
+    padding: 5px 0;
+}
+
+a.comment-reply-link {
+    text-transform: uppercase;
+    color: orangered;
+}
+
+a.comment-reply-link:hover {
+    color: orange;
+}
+
+.comment-respond {
+    margin-top: 60px;
 }

@@ -85,4 +85,13 @@ K Charlton, B Jones & P Favaro, The Contribution of Enrico Taglietti to Canberra
 Jennifer Taylor, Australian Architecture Since 1960, RAIA, 1990
     </article>
 
+    <div class="container">
+            <?php 
+                if(comments_open()):
+                    comments_template();
+                endif;
+            
+            ?>
+    </div>
+
 <?php get_footer(); ?>

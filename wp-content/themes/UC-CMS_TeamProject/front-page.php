@@ -99,6 +99,15 @@
 
     </div> <!-- /site-content -->
 
+    <div class="container">
+            <?php 
+                if(comments_open()):
+                    comments_template();
+                endif;
+            
+            ?>
+    </div>
+
 <?php get_footer();
 
 ?>
