@@ -29,11 +29,11 @@
                     <?php dynamic_sidebar('footer3') ?>
                 </div>
             <?php endif; ?>
-            <!-- <?php if(is_active_sidebar('footer4')) : ?>
+            <?php if(is_active_sidebar('footer4')) : ?>
                 <div class="footer-widget-area">
                     <?php dynamic_sidebar('footer4') ?>
                 </div>
-            <?php endif; ?> -->
+            <?php endif; ?>
         </div> <!-- /footer-widgets -->
 
         <nav class="site-nav">
