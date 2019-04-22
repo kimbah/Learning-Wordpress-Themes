@@ -54,4 +54,13 @@ Photo: https://designcanberrafestival.com.au/wp-content/uploads/2018/09/DC-Websi
 
     </section>
 
+    <div class="container">
+            <?php 
+                if(comments_open()):
+                    comments_template();
+                endif;
+            
+            ?>
+    </div>
+
 <?php get_footer(); ?>

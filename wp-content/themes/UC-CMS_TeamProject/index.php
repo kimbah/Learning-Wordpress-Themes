@@ -1,10 +1,11 @@
 <?php get_header(); ?>
+
     <div class="site-content clearfix"> <!-- site-content -->
     
             <div class="main-column"> <!-- main-column -->
                 <?php if (current_user_can('administrator')) : ?>
                     <div class="admin-quick-add">
-                        <h3>Quick Add Post </h3>
+                        <h3>Quick Add Post</h3>
                         <input type="text" name="title" placeholder="Title">
                         <textarea name="content" placeholder="Content"></textarea>
                         <button id="quick-add-button">Create Post</button>
@@ -26,5 +27,14 @@
     <?php get_sidebar(); ?>
 
     </div> <!-- /site-content -->
+
+    <div class="container">
+            <?php 
+                if(comments_open()):
+                    comments_template();
+                endif;
+            
+            ?>
+        </div>
 
 <?php get_footer(); ?>
