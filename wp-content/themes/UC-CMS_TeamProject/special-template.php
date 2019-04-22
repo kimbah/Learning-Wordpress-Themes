@@ -1,4 +1,3 @@
-dfafasdk
 <?php
 
 /*
