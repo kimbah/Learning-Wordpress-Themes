@@ -1,6 +1,6 @@
 /*
 Theme Name: UC-CMS_TeamProject 
-Theme URI: https://wordpress.org/themes/twentyseventeen/
+Theme URI: https://wordpress.org/themes/UC-CMS_TeamProject/
 Author: Kim Hughes
 Author URI: https://wordpress.org/
 Version: 1.0
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* General Layout */
+/* General Layout Styles */
 
 div.container {
     max-width: 920px;
