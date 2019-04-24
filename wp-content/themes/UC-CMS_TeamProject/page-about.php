@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 
 <section>
+    <p>Add About contents to this container in page-about.php using css/uccms.css for styles</p>
+    
 CANBERRA’S GROWTH—AN OVERVIEW
 
 The city of Canberra is located in the Australian Capital Territory, a 2,356 square kilometre area of land handed over by the NSW government in 1911 for the site of Australia’s new capital. The Territory is a hilly environment containing much natural bushland. The tree-clad, landscaped city itself has been described by architecture historian Jennifer Taylor as “a vast garden containing buildings as individual objects.”

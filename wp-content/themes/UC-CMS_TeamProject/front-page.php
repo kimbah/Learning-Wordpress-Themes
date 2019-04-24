@@ -1,6 +1,10 @@
 <?php get_header(); ?>
 
     <div class="site-content clearfix"> <!-- site-content -->
+        <section>
+            <p>Add home page code to this container in front-page.php - use css/uccms.css for styles</p>
+        </section>
+        
         <?php if(have_posts()) :
             while (have_posts()) : the_post();
 

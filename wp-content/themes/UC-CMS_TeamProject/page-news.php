@@ -1,6 +1,9 @@
 <?php get_header(); ?>
 
     <section>
+
+    <p>Add News contents to this container in page-news.php using css/uccms.css for styles</p>
+
     Mid-Century Modernist Bus Tour: 
 Grounds & Friends
 

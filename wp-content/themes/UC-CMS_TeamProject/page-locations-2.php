@@ -2,17 +2,19 @@
 
 get_header();
 
+
+
 if(have_posts()) :
     while (have_posts()) : the_post(); ?>
+
+    <section>
+        <p>Add locations page code to this container in page-locations-2.php - use css/uccms.css for styles</p>
+    </section>
 
     <article class="post page">
 
         <div class="column-container clearfix"> <!-- column container -->
 
-            <div class="title-column"> <!-- title-column -->
-                <h2><?php the_title(); ?></h2>
-            </div> <!-- /title-column -->
-            
             <div class="text-column"> <!-- text-column -->
                 <?php the_content(); ?>
             </div> <!-- /text-column -->

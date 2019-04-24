@@ -2,6 +2,9 @@
 
 
     <article class="post page">
+
+    <p>Add Architects contents to this container in page-architects.php using css/uccms.css for styles</p>
+
         ENRICO TAGLIETTI
 
 Enrico Taglietti is recognised as an important architect and a leading practitioner of the late twentieth century organic style of architecture. His unique sculptural style draws upon Italian free form construction and post-war Japanese architecture. He has designed many houses, schools, churches and commercial buildings in Canberra, Sydney and Melbourne and his projects have won numerous RAIA awards. In March 2007 Enrico was awarded Australia’s most prestigious architecture prize—the Royal Australian Institute of Architects (RAIA) Gold Medal for Architecture.

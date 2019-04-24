@@ -3,6 +3,8 @@
 
     <article class="post page">
 
+    <p>Add Houses contents to this container in page-houses.php using css/uccms.css for styles</p>
+
         <h3>11 NORTHCOTE CRESCENT, DEAKIN (1951-52)</h3>
 
 <p>The Bowden House at 11 Northcote Crescent, Deakin was designed by Harry Seidler and Associates in 1951–52 for Mr I G Bowden. Construction was completed in 1955. The house is an early example of the post-war international style with its cubiform shape, Corbusian window motif, overhang for shade, plain smooth wall surfaces, contrasting textures and large sheets of glass.</p>
